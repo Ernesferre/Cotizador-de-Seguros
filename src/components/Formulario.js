@@ -106,9 +106,9 @@ const Formulario = ({guardarResumen}) => {
         // por cada año hay que restar el 3%
         resultado -=((diferencia * 3) * resultado ) / 100;
 
-        // Americano 15
-        // Asiatico 5%
-        // Europeo 30%
+        // Ford 15
+        // Fiat 5%
+        // Toyota 30%
         resultado = calcularMarca(marca) * resultado;
 
         console.log(resultado);
@@ -150,9 +150,9 @@ const Formulario = ({guardarResumen}) => {
                 
                 >
                     <option value="">-- Seleccione --</option>
-                    <option value="americano">Americano</option>
-                    <option value="europeo">Europeo</option>
-                    <option value="asiatico">Asiatico</option>
+                    <option value="ford">Ford</option>
+                    <option value="toyota">Toyota</option>
+                    <option value="fiat">Fiat</option>
 
                 </Select>
 
